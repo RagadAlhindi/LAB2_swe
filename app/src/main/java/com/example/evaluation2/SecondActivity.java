@@ -19,7 +19,7 @@ public class SecondActivity extends AppCompatActivity {
         Intent i = getIntent();
 
         String n = i.getStringExtra("personName");
-        tv.setText("hello"+ n + "!");
+        tv.setText("Hello "+ n + "!");
 
     }
 }
